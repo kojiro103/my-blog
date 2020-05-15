@@ -1,6 +1,6 @@
 module.exports = {
   // Title of your website
-  title: 'Kojiro Blog',
+  title: 'Kojiro blog',
 
   // Description of your website
   description: 'This is my blog',
