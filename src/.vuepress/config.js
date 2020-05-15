@@ -1,6 +1,6 @@
 module.exports = {
   // Title of your website
-  title: 'Kojiro blog',
+  title: 'Kojiros Blog',
 
   // Description of your website
   description: 'This is my blog',
@@ -60,7 +60,7 @@ module.exports = {
         // Github account and link
         github: {
           account: 'shugo103',
-          link: 'https://github.com/shugo103',
+          link: 'https://github.com/kojiro103',
         },
 
         // Facebook account and link
