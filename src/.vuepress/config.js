@@ -123,6 +123,11 @@ module.exports = {
       },
     },
 
+    // The favicon (free image)
+    head: [
+      ['link', { rel: 'icon', type: 'image/png', href: '/img/favicon.png' }]
+    ],
+
     // Show the last updated time of your posts
     lastUpdated: true,
 
