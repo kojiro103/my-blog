@@ -5,7 +5,7 @@ tags:
   - Rust
   - study
 date: 2020-05-15
-title: Rustの勉強 ①はじまりはじまり
+title: Rustの勉強① はじまり
 vssue: false
 ---
 
