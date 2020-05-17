@@ -1,7 +1,8 @@
 ---
-category: daily
+category: diary
 tags:
-  - daily
+  - diary
+  
 date: 2020-05-17
 title: コロナによる影響
 vssue: false

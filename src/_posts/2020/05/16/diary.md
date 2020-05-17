@@ -1,7 +1,7 @@
 ---
-category: dairy
+category: diary
 tags:
-  - dairy 
+  - diary
 date: 2020-05-16
 title: vuepressでつまづいた話
 vssue: false
