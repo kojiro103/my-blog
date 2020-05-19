@@ -39,7 +39,7 @@ vssue: false
 
 無事辿り付き，初めに撮った写真がこれです．
 
-<img src="/img/kanban.jpg" alt="drawing" width="400"/>
+<img src="/img/2020/05/15/kanban.jpg" alt="drawing" width="400"/>
 
 とりあえず，無事に到着できて一安心．  
 ただ，真夏の炎天下の中，駅から会場までの歩きが割とキツかった...
