@@ -13,7 +13,7 @@ vssue: false
 そこで今回は，映像授業を受けてみて感じたメリット・デメリットを語ります．
 
 <!-- more -->
-<img src="/img/shigoto_zaitaku_cat_man.png" alt="drawing" width="400"/>
+<img src="/img/2020/05/18/shigoto_zaitaku_cat_man.png" alt="drawing" width="400"/>
 
 # メリット
 ## 登校の必要が無い！

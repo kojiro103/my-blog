@@ -25,7 +25,7 @@ wordpressだとphpを使う必要がありますからね．
 はじめは．ホスティングサービスとしてGitHub Pagesを利用したのですが，何故が公開するとcssが反映しないという事件が発生しました．(ここで6時間ぐらい溶かしました！)   
 localhostで公開するとcssが反映され，思い通りのサイトが表示されるのですが...色々と原因を調査しました．
 
-<img src="/img/computer_monku.png" alt="drawing" width="400"/>
+<img src="/img/2020/05/16/computer_monku.png" alt="drawing" width="400"/>
 
 ...結局原因はわかりませんでした．  
 最終的に，netlifyを使用したところ，cssが反映されたので，ひとまずこれで運営していこうと思います．  
