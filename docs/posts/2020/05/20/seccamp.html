@@ -6,7 +6,7 @@
     <title>セキュリティキャンプ体験談③ 事前課題その１ | Kojiros Blog</title>
     <meta name="generator" content="VuePress 1.5.0">
     <meta name="description" content="This is my blog">
-    <link rel="preload" href="/assets/css/0.styles.b1d96c97.css" as="style"><link rel="preload" href="/assets/js/app.983690bb.js" as="script"><link rel="preload" href="/assets/js/7.aef6fc73.js" as="script"><link rel="preload" href="/assets/js/22.7948c06e.js" as="script"><link rel="prefetch" href="/assets/js/1.e76425c1.js"><link rel="prefetch" href="/assets/js/10.f0704bf3.js"><link rel="prefetch" href="/assets/js/11.92f1d8aa.js"><link rel="prefetch" href="/assets/js/12.45d21d40.js"><link rel="prefetch" href="/assets/js/13.f999ec35.js"><link rel="prefetch" href="/assets/js/14.40771f44.js"><link rel="prefetch" href="/assets/js/15.cd786adf.js"><link rel="prefetch" href="/assets/js/16.eba9b2ec.js"><link rel="prefetch" href="/assets/js/17.23cb765d.js"><link rel="prefetch" href="/assets/js/18.0a5b420c.js"><link rel="prefetch" href="/assets/js/19.6b0c39ed.js"><link rel="prefetch" href="/assets/js/20.85f55d50.js"><link rel="prefetch" href="/assets/js/21.5d60ca69.js"><link rel="prefetch" href="/assets/js/23.180617e5.js"><link rel="prefetch" href="/assets/js/24.8fbb5fb6.js"><link rel="prefetch" href="/assets/js/3.ecaf7a1c.js"><link rel="prefetch" href="/assets/js/4.d387256f.js"><link rel="prefetch" href="/assets/js/5.a73b54e2.js"><link rel="prefetch" href="/assets/js/6.2a22166b.js"><link rel="prefetch" href="/assets/js/8.b0bc0e49.js"><link rel="prefetch" href="/assets/js/9.3545e6f3.js">
+    <link rel="preload" href="/assets/css/0.styles.b1d96c97.css" as="style"><link rel="preload" href="/assets/js/app.9ceb342d.js" as="script"><link rel="preload" href="/assets/js/7.aef6fc73.js" as="script"><link rel="preload" href="/assets/js/22.ec67760f.js" as="script"><link rel="prefetch" href="/assets/js/1.e76425c1.js"><link rel="prefetch" href="/assets/js/10.f0704bf3.js"><link rel="prefetch" href="/assets/js/11.92f1d8aa.js"><link rel="prefetch" href="/assets/js/12.45d21d40.js"><link rel="prefetch" href="/assets/js/13.f999ec35.js"><link rel="prefetch" href="/assets/js/14.40771f44.js"><link rel="prefetch" href="/assets/js/15.f90c9869.js"><link rel="prefetch" href="/assets/js/16.eba9b2ec.js"><link rel="prefetch" href="/assets/js/17.23cb765d.js"><link rel="prefetch" href="/assets/js/18.a9c1a6cb.js"><link rel="prefetch" href="/assets/js/19.5260cdc9.js"><link rel="prefetch" href="/assets/js/20.cc308e64.js"><link rel="prefetch" href="/assets/js/21.5d60ca69.js"><link rel="prefetch" href="/assets/js/23.c11a0a8a.js"><link rel="prefetch" href="/assets/js/24.e0b850f2.js"><link rel="prefetch" href="/assets/js/3.ecaf7a1c.js"><link rel="prefetch" href="/assets/js/4.d387256f.js"><link rel="prefetch" href="/assets/js/5.a73b54e2.js"><link rel="prefetch" href="/assets/js/6.2a22166b.js"><link rel="prefetch" href="/assets/js/8.b0bc0e49.js"><link rel="prefetch" href="/assets/js/9.3545e6f3.js">
     <link rel="stylesheet" href="/assets/css/0.styles.b1d96c97.css">
   </head>
   <body>
@@ -33,42 +33,89 @@
 また，参加の合否は，正答率ではなく，以下に参加意欲があるのかにより決まるらしいです．<br>
 このため，僕はとにかく意欲を見せようと取り組みました．<br>
 ちなみに，応募課題は，志望するトラックごとに異なります．<br>
-今回は，僕が志望した「バラエティトラック」の応募課題の僕の回答を紹介します．</p> <h1 id="バラエティトラックの応募課題"><a href="#バラエティトラックの応募課題" class="header-anchor">#</a> バラエティトラックの応募課題</h1> <p>'''</p> <blockquote><p>課題内容を以下に示します．
-2019 Cトラック</p> <h3 id=""><a href="#" class="header-anchor">#</a></h3> <p>以下の問1と問2はトラックCの必須問題です。問3～問8は選択問題で、3問を選択して回答してください。</p> <h3 id="-2"><a href="#-2" class="header-anchor">#</a></h3> <p>問1
-本問題はシナリオベースの問題です。※登場する組織、プロトコルはすべて架空です。</p> <p>とあるビルの空調メーカーは自社の制御プロトコルは以下の点から安全であると主張しています。</p> <p>a.空調のプロトコルは独自であり、公開されていないため、攻撃されることはない。
-b.万が一、空調がハッキングされても一時的に寒くなったり、熱くなったりするだけで命にかかわるものではない。
-c.仮にエアコンが暴走しても、コンセントを抜けば停止することが可能である。</p> <p>あなたはプロトコルを調査することにしました。
-その結果、たしかに独自ではあったが、暗号化も認証も利用していないことがわかりました。</p> <p>システム構成
-[操作用PC] -- NW(LAN) --</p><div class="text-align-center"> [空調制御装置] </div>-- 独自物理線 --<div class="text-align-center"> [エアコン/室外機]
-　↑ここからの送信されたパケットを取得
-※NW＝ネットワーク<p></p> <p>問a.
-以下のバイト列は2019年4月5日に「操作用PC」でキャプチャした通信内容（L7データ）です。
-操作した内容とパケットを見比べて、解析を行い、わかったことを述べてください。
-ヒント：IEEE 754、リトルエンディアン、CRC、UNIX時間
-例）いずれのパケットにも共通する箇所である最初の3バイトはASCIIに直すと「BEG」となっており、「BEGIN」の最初の文字と思われる。
-恐らく、パケットの先頭であるということを示していると思われる。</p> <p>【通信データ】
-(1)エアコンの設定温度を28.0度に設定した際のリクエストパケット
-42 45 47 08 0A A7 5C 08 00 00 04 00 01 00 00 E0 41 45 4E 44 20 50 A8 F3
-(2)エアコンの設定温度を19.5度に設定した際のリクエストパケット
-42 45 47 3A 0A A7 5C 08 00 00 04 00 01 00 00 9C 41 45 4E 44 DA 66 22 70
-(3)風の強さを5段階の一番強くした際のリクエストパケット
-42 45 47 C2 0C A7 5C 05 00 00 04 00 03 05 45 4E 44 06 C7 07 12</p> <p>問b.
-問a.の回答をもとにエアコンの設定温度を30.0度に設定するためのパケットを生成してください。
-答えが導き出せなかった場合はわからなかったことを記入してください。</p> <p>問c.
-とある空調メーカーの主張で誤りと感じた部分を指摘してください。</p> <p>問d.
-同システムがハッキング可能であった場合、考えうる最悪のシナリオを書いてください。
-例）ビル全体の冷房をガンガン入れて、電気代を高額にする。</p> <h3 id="-3"><a href="#-3" class="header-anchor">#</a></h3> <p>問2
-いままで作ったもの（ソフトウェア、装置、システム、組織、など何でも）で自慢したいものがあれば教えてください．その中で、何かあなたのプログラミングのスキルを推し量るエピソードがあれば書いてください．</p> <p>###以下選択問題で、以下から3問選択して回答。</p> <h3 id="-4"><a href="#-4" class="header-anchor">#</a></h3> <p>問3
-あなたは、普段様々なデバイスを用いてインターネットにアクセスしています。その際そのデバイスはどのような通信をしているか想像してください。次に、以下のレポートを読んでください。
-https://www.cisco.com/c/ja_jp/solutions/collateral/service-provider/visual-networking-index-vni/white-paper-c11-741490.html</p> <p>問a．あなたの想像した通信の様相とインターネット全体の通信の様相について、それぞれ記載し、どのような違いがあったか述べてください。また、その理由について考察をまとめて述べてください。
-問b．インターネット全体の通信の様相のついて、2023年以降の将来どの様に変化するかあなたの考えを述べてください。</p> <h3 id="-5"><a href="#-5" class="header-anchor">#</a></h3> <p>問4
-今後、人工知能はセキュリティ分野でどのような役割を担うか？あなたの予想と共に、そのメリットとデメリットを記述してください。</p> <h3 id="-6"><a href="#-6" class="header-anchor">#</a></h3> <p>問5
-サイバーセキュリティに関して色んな犯罪がありますが、中にはどういう行為が犯罪なのか分かりにくい条文もまだまだあります。
-こういう行為は犯罪に当るのかがよく分からない、これがなぜ犯罪になるのかがよく分からないというのをなるべく具体的に挙げてください。</p> <h3 id="-7"><a href="#-7" class="header-anchor">#</a></h3> <p>問6
-あなたは、何らかのネットワークにつながるコンピュータ装置（いわゆるIoT機器）の脆弱性を調べようとしています。装置の外部インタフェースとしては、Wi-Fi、USB、Bluetooth、HDMI映像出力が出ており、スイッチやLEDも付いています。設定はWi-Fiに接続したWebブラウザから行えるようです。内部で動くソフトウェアやOSの種類も分からず、CPUの種類も分かりません。このとき、装置の外部インタフェースを通じた脆弱性を調べる手順をできるだけ色々と考えてください。なお、装置の蓋を開けて中身を直接調べてたり配線を取り出したりすることも可能とします。</p> <h3 id="-8"><a href="#-8" class="header-anchor">#</a></h3> <p>問7
-ある個人が自分だけで使用しているPC（OSは適当に決めてください）に保存されている情報、例えば特定の文書ファイルやデータなどにしか記録されていないはずの情報が、インターネット上の掲示板に1ヶ月前から掲載されていることを知りました。この情報がどうやって漏洩したか、PCの状態、さまざまなログやファイル、ルータの通信記録などから推察する手順をできるだけ多くの条件を想定して示してください。</p> <h3 id="-9"><a href="#-9" class="header-anchor">#</a></h3> <p>問8
-CTFでこういう問題を作ってみたい、というのをなるべく具体的に挙げてください。
-'''</p></div></blockquote></div></article> <section class="post-meta main-div" data-v-4e23451f><section class="post-date clearfix" data-v-4e23451f><span class="create-date" data-v-4e23451f>
+今回は，僕が志望した「バラエティトラック」の応募課題の僕の回答を紹介します．</p> <h1 id="バラエティトラックの応募課題"><a href="#バラエティトラックの応募課題" class="header-anchor">#</a> バラエティトラックの応募課題</h1> <div class="language- extra-class"><pre class="language-text"><code>&gt;課題内容を以下に示します．
+&gt;2019 Cトラック
+&gt;
+&gt;###
+&gt; 以下の問1と問2はトラックCの必須問題です。問3～問8は選択問題で、3問を選択して回答してください。
+&gt; ###
+&gt; 問1
+&gt; 本問題はシナリオベースの問題です。※登場する組織、プロトコルはすべて架空です。
+&gt; 
+&gt; とあるビルの空調メーカーは自社の制御プロトコルは以下の点から安全であると主張しています。
+&gt; 
+&gt; a.空調のプロトコルは独自であり、公開されていないため、攻撃されることはない。
+&gt; b.万が一、空調がハッキングされても一時的に寒くなったり、熱くなったりするだけで命にかかわるものではない。
+&gt; c.仮にエアコンが暴走しても、コンセントを抜けば停止することが可能である。
+&gt; 
+&gt; あなたはプロトコルを調査することにしました。
+&gt; その結果、たしかに独自ではあったが、暗号化も認証も利用していないことがわかりました。
+&gt; 
+&gt; システム構成
+&gt; [操作用PC] &lt;--- NW(LAN) ---&gt; [空調制御装置] &lt;--- 独自物理線 ---&gt; [エアコン/室外機]
+&gt; 　↑ここからの送信されたパケットを取得
+&gt; ※NW＝ネットワーク
+&gt; 
+&gt; 問a.
+&gt; 以下のバイト列は2019年4月5日に「操作用PC」でキャプチャした通信内容（L7データ）です。
+&gt; 操作した内容とパケットを見比べて、解析を行い、わかったことを述べてください。
+&gt; ヒント：IEEE 754、リトルエンディアン、CRC、UNIX時間
+&gt; 例）いずれのパケットにも共通する箇所である最初の3バイトはASCIIに直すと「BEG」となっており、「BEGIN」の最初の文字と思われる。
+&gt; 恐らく、パケットの先頭であるということを示していると思われる。
+&gt; 
+&gt; 【通信データ】
+&gt; (1)エアコンの設定温度を28.0度に設定した際のリクエストパケット
+&gt; 42 45 47 08 0A A7 5C 08 00 00 04 00 01 00 00 E0 41 45 4E 44 20 50 A8 F3
+&gt; (2)エアコンの設定温度を19.5度に設定した際のリクエストパケット
+&gt; 42 45 47 3A 0A A7 5C 08 00 00 04 00 01 00 00 9C 41 45 4E 44 DA 66 22 70
+&gt; (3)風の強さを5段階の一番強くした際のリクエストパケット
+&gt; 42 45 47 C2 0C A7 5C 05 00 00 04 00 03 05 45 4E 44 06 C7 07 12
+&gt; 
+&gt; 問b.
+&gt; 問a.の回答をもとにエアコンの設定温度を30.0度に設定するためのパケットを生成してください。
+&gt; 答えが導き出せなかった場合はわからなかったことを記入してください。
+&gt; 
+&gt; 問c.
+&gt; とある空調メーカーの主張で誤りと感じた部分を指摘してください。
+&gt; 
+&gt; 問d.
+&gt; 同システムがハッキング可能であった場合、考えうる最悪のシナリオを書いてください。
+&gt; 例）ビル全体の冷房をガンガン入れて、電気代を高額にする。
+&gt; 
+&gt; ###
+&gt; 問2
+&gt; いままで作ったもの（ソフトウェア、装置、システム、組織、など何でも）で自慢したいものがあれば教えてください．その中で、何かあなたのプログラミングのスキルを推し量るエピソードがあれば書いてください．
+&gt; 
+&gt; ###以下選択問題で、以下から3問選択して回答。
+&gt; ###
+&gt; 問3
+&gt; あなたは、普段様々なデバイスを用いてインターネットにアクセスしています。その際そのデバイスはどのような通信をしているか想像してください。次に、以下のレポートを読んでください。
+&gt; https://www.cisco.com/c/ja_jp/solutions/collateral/service-provider/visual-networking-index-vni/white-paper-c11-741490.html
+&gt; 
+&gt; 問a．あなたの想像した通信の様相とインターネット全体の通信の様相について、それぞれ記載し、どのような違いがあったか述べてください。また、その理由について考察をまとめて述べてください。
+&gt; 問b．インターネット全体の通信の様相のついて、2023年以降の将来どの様に変化するかあなたの考えを述べてください。
+&gt; 
+&gt; ###
+&gt; 問4
+&gt; 今後、人工知能はセキュリティ分野でどのような役割を担うか？あなたの予想と共に、そのメリットとデメリットを記述してください。
+&gt; 
+&gt; ###
+&gt; 問5
+&gt; サイバーセキュリティに関して色んな犯罪がありますが、中にはどういう行為が犯罪なのか分かりにくい条文もまだまだあります。
+&gt; こういう行為は犯罪に当るのかがよく分からない、これがなぜ犯罪になるのかがよく分からないというのをなるべく具体的に挙げてください。
+&gt; 
+&gt; ###
+&gt; 問6
+&gt; あなたは、何らかのネットワークにつながるコンピュータ装置（いわゆるIoT機器）の脆弱性を調べようとしています。装置の外部インタフェースとしては、Wi-Fi、USB、Bluetooth、HDMI映像出力が出ており、スイッチやLEDも付いています。設定はWi-Fiに接続したWebブラウザから行えるようです。内部で動くソフトウェアやOSの種類も分からず、CPUの種類も分かりません。このとき、装置の外部インタフェースを通じた脆弱性を調べる手順をできるだけ色々と考えてください。なお、装置の蓋を開けて中身を直接調べてたり配線を取り出したりすることも可能とします。
+&gt; 
+&gt; ###
+&gt; 問7
+&gt; ある個人が自分だけで使用しているPC（OSは適当に決めてください）に保存されている情報、例えば特定の文書ファイルやデータなどにしか記録されていないはずの情報が、インターネット上の掲示板に1ヶ月前から掲載されていることを知りました。この情報がどうやって漏洩したか、PCの状態、さまざまなログやファイル、ルータの通信記録などから推察する手順をできるだけ多くの条件を想定して示してください。
+&gt; 
+&gt; ###
+&gt; 問8
+&gt; CTFでこういう問題を作ってみたい、というのをなるべく具体的に挙げてください。
+</code></pre></div></div></article> <section class="post-meta main-div" data-v-4e23451f><section class="post-date clearfix" data-v-4e23451f><span class="create-date" data-v-4e23451f>
       作成日 : 2020-05-20
     </span> <span class="update-date" data-v-4e23451f>
       更新日 : 2020-05-20
@@ -87,6 +134,6 @@ CTFでこういう問題を作ってみたい、というのをなるべく具�
     </a> <span data-v-1375e54c> | </span> <a href="https://github.com/meteorlxy/vuepress-theme-meteorlxy" target="_blank" data-v-1375e54c>
         meteorlxy
       </a></p> <p class="footer-text" data-v-1375e54c>Copyright 2018-present <a href="https://github.com/meteorlxy" target="_blank">meteorlxy</a> | MIT License</p></footer></div><div class="global-ui"><!----><!----></div></div>
-    <script src="/assets/js/app.983690bb.js" defer></script><script src="/assets/js/7.aef6fc73.js" defer></script><script src="/assets/js/22.7948c06e.js" defer></script>
+    <script src="/assets/js/app.9ceb342d.js" defer></script><script src="/assets/js/7.aef6fc73.js" defer></script><script src="/assets/js/22.ec67760f.js" defer></script>
   </body>
 </html>
